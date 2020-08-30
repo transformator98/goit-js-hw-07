@@ -28,6 +28,9 @@ const createList = image => {
   imgRef.classList.add('galery__img');
   imgRef.src = image.url;
   imgRef.alt = image.alt;
+  imgRef.addEventListener('click', () => {
+    imgRef.classList.add('galery__img_filter');
+  });
 };
 
 const imagesCreate = images.map(image => createList(image));

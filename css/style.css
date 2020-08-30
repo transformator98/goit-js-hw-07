@@ -70,6 +70,11 @@ input {
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
+.galery__img_filter {
+  filter: grayscale(100%);
+  transition: filter 2s;
+}
+
 #counter {
   display: flex;
   justify-content: center;
