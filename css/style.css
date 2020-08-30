@@ -23,6 +23,29 @@ label {
 input {
   font: inherit;
 }
+.title {
+  font-size: 25px;
+  text-transform: uppercase;
+  color: rgb(73, 73, 73);
+  text-shadow: 1px 1px 1px rgb(73, 73, 73);
+}
+
+.item-task {
+  border: 2px solid rgb(141, 141, 141);
+  max-width: 92px;
+  list-style: none;
+
+  text-transform: uppercase;
+  margin: 10px;
+  padding: 5px 10px;
+}
+
+.link-task {
+  align-items: center;
+  text-decoration: none;
+  color: rgb(73, 73, 73);
+  font-size: 18px;
+}
 
 .container {
   list-style: none;
