@@ -40,6 +40,11 @@ input {
   padding: 5px 10px;
 }
 
+.item-task:hover {
+  transform: scale(1.1);
+  transition: transform 200ms;
+}
+
 .link-task {
   align-items: center;
   text-decoration: none;
