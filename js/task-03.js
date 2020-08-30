@@ -28,8 +28,11 @@ const createList = image => {
   imgRef.classList.add('galery__img');
   imgRef.src = image.url;
   imgRef.alt = image.alt;
+
   imgRef.addEventListener('click', () => {
-    imgRef.classList.add('galery__img_filter');
+    !imgRef.classList.contains('galery__img_filter')
+      ? imgRef.classList.add('galery__img_filter')
+      : imgRef.classList.remove('galery__img_filter');
   });
 };
 
