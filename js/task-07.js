@@ -5,5 +5,6 @@ function onTextSize() {
   textRef.style.fontSize = `${inputRef.value}px`;
 }
 
-inputRef.addEventListener('keydown', onTextSize);
-inputRef.addEventListener('mouseup', onTextSize);
+// inputRef.addEventListener('keydown', onTextSize);
+inputRef.addEventListener('input', onTextSize);
+// inputRef.addEventListener('mouseup', onTextSize);
